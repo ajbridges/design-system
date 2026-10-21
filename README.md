@@ -14,7 +14,7 @@ npx shadcn@latest add ajbridges/design-system/starter#v0.1.0
 npx shadcn@latest add ajbridges/design-system/badge#v0.1.0
 ```
 
-Installing any component also pulls in `theme` and `utils`. `theme` loads DM Sans (`font-dm-sans`).
+Installing any component also pulls in `theme` and `utils`. `theme` loads DM Sans (`font-dm-sans`). `starter` is a `registry:base` item so the CLI replaces the default shadcn colors, radius and type with this theme. Adding a single component later only fills in tokens that are not already set.
 
 ## Using it with Claude Code
 
