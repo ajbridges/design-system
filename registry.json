@@ -1,0 +1,1326 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "design-system",
+  "homepage": "https://github.com/ajbridges/design-system",
+  "items": [
+    {
+      "name": "theme",
+      "type": "registry:theme",
+      "title": "Theme tokens",
+      "description": "Neutral/Blue theme from shadcn preset b1YmqviOA (DM Sans, large radius, blue charts) plus success, warning and info status tokens. Generated from tokens/tokens.json — do not edit cssVars by hand.",
+      "cssVars": {
+        "theme": {
+          "font-sans": "'DM Sans Variable', 'DM Sans', ui-sans-serif, system-ui, sans-serif",
+          "font-heading": "var(--font-sans)",
+          "font-mono": "ui-monospace, SFMono-Regular, Menlo, monospace",
+          "radius-sm": "calc(var(--radius) * 0.6)",
+          "radius-md": "calc(var(--radius) * 0.8)",
+          "radius-lg": "var(--radius)",
+          "radius-xl": "calc(var(--radius) * 1.4)",
+          "radius-2xl": "calc(var(--radius) * 1.8)",
+          "radius-3xl": "calc(var(--radius) * 2.2)",
+          "radius-4xl": "calc(var(--radius) * 2.6)"
+        },
+        "light": {
+          "background": "oklch(1 0 0)",
+          "foreground": "oklch(0.145 0 0)",
+          "card": "oklch(1 0 0)",
+          "card-foreground": "oklch(0.145 0 0)",
+          "popover": "oklch(1 0 0)",
+          "popover-foreground": "oklch(0.145 0 0)",
+          "primary": "oklch(0.488 0.243 264.376)",
+          "primary-foreground": "oklch(0.97 0.014 254.604)",
+          "secondary": "oklch(0.967 0.001 286.375)",
+          "secondary-foreground": "oklch(0.21 0.006 285.885)",
+          "muted": "oklch(0.97 0 0)",
+          "muted-foreground": "oklch(0.556 0 0)",
+          "accent": "oklch(0.97 0 0)",
+          "accent-foreground": "oklch(0.205 0 0)",
+          "destructive": "oklch(0.577 0.245 27.325)",
+          "destructive-foreground": "oklch(0.985 0.01 27.325)",
+          "success": "oklch(0.55 0.15 155)",
+          "success-foreground": "oklch(0.985 0.015 155)",
+          "warning": "oklch(0.55 0.14 75)",
+          "warning-foreground": "oklch(0.99 0.02 85)",
+          "info": "oklch(0.56 0.13 230)",
+          "info-foreground": "oklch(0.985 0.012 230)",
+          "border": "oklch(0.922 0 0)",
+          "input": "oklch(0.922 0 0)",
+          "ring": "oklch(0.708 0 0)",
+          "chart-1": "oklch(0.809 0.105 251.813)",
+          "chart-2": "oklch(0.623 0.214 259.815)",
+          "chart-3": "oklch(0.546 0.245 262.881)",
+          "chart-4": "oklch(0.488 0.243 264.376)",
+          "chart-5": "oklch(0.424 0.199 265.638)",
+          "sidebar": "oklch(0.985 0 0)",
+          "sidebar-foreground": "oklch(0.145 0 0)",
+          "sidebar-primary": "oklch(0.546 0.245 262.881)",
+          "sidebar-primary-foreground": "oklch(0.97 0.014 254.604)",
+          "sidebar-accent": "oklch(0.97 0 0)",
+          "sidebar-accent-foreground": "oklch(0.205 0 0)",
+          "sidebar-border": "oklch(0.922 0 0)",
+          "sidebar-ring": "oklch(0.708 0 0)",
+          "overlay": "oklch(0.145 0 0)",
+          "radius": "0.875rem"
+        },
+        "dark": {
+          "background": "oklch(0.145 0 0)",
+          "foreground": "oklch(0.985 0 0)",
+          "card": "oklch(0.205 0 0)",
+          "card-foreground": "oklch(0.985 0 0)",
+          "popover": "oklch(0.205 0 0)",
+          "popover-foreground": "oklch(0.985 0 0)",
+          "primary": "oklch(0.424 0.199 265.638)",
+          "primary-foreground": "oklch(0.97 0.014 254.604)",
+          "secondary": "oklch(0.274 0.006 286.033)",
+          "secondary-foreground": "oklch(0.985 0 0)",
+          "muted": "oklch(0.269 0 0)",
+          "muted-foreground": "oklch(0.708 0 0)",
+          "accent": "oklch(0.269 0 0)",
+          "accent-foreground": "oklch(0.985 0 0)",
+          "destructive": "oklch(0.704 0.191 22.216)",
+          "destructive-foreground": "oklch(0.18 0.04 25)",
+          "success": "oklch(0.74 0.15 155)",
+          "success-foreground": "oklch(0.2 0.04 155)",
+          "warning": "oklch(0.8 0.14 85)",
+          "warning-foreground": "oklch(0.22 0.05 75)",
+          "info": "oklch(0.75 0.12 230)",
+          "info-foreground": "oklch(0.18 0.04 230)",
+          "border": "oklch(1 0 0 / 10%)",
+          "input": "oklch(1 0 0 / 15%)",
+          "ring": "oklch(0.556 0 0)",
+          "chart-1": "oklch(0.809 0.105 251.813)",
+          "chart-2": "oklch(0.623 0.214 259.815)",
+          "chart-3": "oklch(0.546 0.245 262.881)",
+          "chart-4": "oklch(0.488 0.243 264.376)",
+          "chart-5": "oklch(0.424 0.199 265.638)",
+          "sidebar": "oklch(0.205 0 0)",
+          "sidebar-foreground": "oklch(0.985 0 0)",
+          "sidebar-primary": "oklch(0.623 0.214 259.815)",
+          "sidebar-primary-foreground": "oklch(0.97 0.014 254.604)",
+          "sidebar-accent": "oklch(0.269 0 0)",
+          "sidebar-accent-foreground": "oklch(0.985 0 0)",
+          "sidebar-border": "oklch(1 0 0 / 10%)",
+          "sidebar-ring": "oklch(0.556 0 0)",
+          "overlay": "oklch(0.145 0 0)"
+        }
+      },
+      "registryDependencies": [
+        "font-dm-sans"
+      ],
+      "css": {
+        "@import url(\"https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap\")": {},
+        "@layer base": {
+          "button:not(:disabled), [role='button']:not(:disabled)": {
+            "cursor": "pointer"
+          }
+        }
+      }
+    },
+    {
+      "name": "utils",
+      "type": "registry:lib",
+      "title": "cn() helper",
+      "dependencies": [
+        "clsx",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "path": "registry/lib/utils.ts",
+          "type": "registry:lib",
+          "target": "@lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "use-mobile",
+      "type": "registry:hook",
+      "title": "useIsMobile",
+      "description": "Viewport hook used by the sidebar.",
+      "files": [
+        {
+          "path": "registry/hooks/use-mobile.ts",
+          "type": "registry:hook",
+          "target": "@hooks/use-mobile.ts"
+        }
+      ]
+    },
+    {
+      "name": "accordion",
+      "type": "registry:ui",
+      "title": "Accordion",
+      "dependencies": [
+        "@base-ui/react",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/accordion.tsx",
+          "type": "registry:ui",
+          "target": "@ui/accordion.tsx"
+        }
+      ]
+    },
+    {
+      "name": "alert",
+      "type": "registry:ui",
+      "title": "Alert",
+      "dependencies": [
+        "class-variance-authority"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/alert.tsx",
+          "type": "registry:ui",
+          "target": "@ui/alert.tsx"
+        }
+      ]
+    },
+    {
+      "name": "alert-dialog",
+      "type": "registry:ui",
+      "title": "Alert Dialog",
+      "dependencies": [
+        "@base-ui/react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0",
+        "ajbridges/design-system/button#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/alert-dialog.tsx",
+          "type": "registry:ui",
+          "target": "@ui/alert-dialog.tsx"
+        }
+      ]
+    },
+    {
+      "name": "aspect-ratio",
+      "type": "registry:ui",
+      "title": "Aspect Ratio",
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/aspect-ratio.tsx",
+          "type": "registry:ui",
+          "target": "@ui/aspect-ratio.tsx"
+        }
+      ]
+    },
+    {
+      "name": "avatar",
+      "type": "registry:ui",
+      "title": "Avatar",
+      "dependencies": [
+        "@base-ui/react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/avatar.tsx",
+          "type": "registry:ui",
+          "target": "@ui/avatar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "badge",
+      "type": "registry:ui",
+      "title": "Badge",
+      "description": "Status badges: default, secondary, outline, ghost, link, success, warning, info, destructive, neutral. Optional dot.",
+      "dependencies": [
+        "@base-ui/react",
+        "class-variance-authority"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/badge.tsx",
+          "type": "registry:ui",
+          "target": "@ui/badge.tsx"
+        }
+      ]
+    },
+    {
+      "name": "breadcrumb",
+      "type": "registry:ui",
+      "title": "Breadcrumb",
+      "dependencies": [
+        "@base-ui/react",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/breadcrumb.tsx",
+          "type": "registry:ui",
+          "target": "@ui/breadcrumb.tsx"
+        }
+      ]
+    },
+    {
+      "name": "button",
+      "type": "registry:ui",
+      "title": "Button",
+      "description": "Base UI button. Variants: default, secondary, outline, ghost, destructive, link.",
+      "dependencies": [
+        "@base-ui/react",
+        "class-variance-authority"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/button.tsx",
+          "type": "registry:ui",
+          "target": "@ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "button-group",
+      "type": "registry:ui",
+      "title": "Button Group",
+      "dependencies": [
+        "@base-ui/react",
+        "class-variance-authority"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0",
+        "ajbridges/design-system/separator#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/button-group.tsx",
+          "type": "registry:ui",
+          "target": "@ui/button-group.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar",
+      "type": "registry:ui",
+      "title": "Calendar",
+      "dependencies": [
+        "react-day-picker@latest",
+        "date-fns",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0",
+        "ajbridges/design-system/button#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/calendar.tsx",
+          "type": "registry:ui",
+          "target": "@ui/calendar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "card",
+      "type": "registry:ui",
+      "title": "Card",
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/card.tsx",
+          "type": "registry:ui",
+          "target": "@ui/card.tsx"
+        }
+      ]
+    },
+    {
+      "name": "carousel",
+      "type": "registry:ui",
+      "title": "Carousel",
+      "dependencies": [
+        "embla-carousel-react",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0",
+        "ajbridges/design-system/button#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/carousel.tsx",
+          "type": "registry:ui",
+          "target": "@ui/carousel.tsx"
+        }
+      ]
+    },
+    {
+      "name": "chart",
+      "type": "registry:ui",
+      "title": "Chart",
+      "dependencies": [
+        "recharts@3.8.0"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0",
+        "ajbridges/design-system/card#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/chart.tsx",
+          "type": "registry:ui",
+          "target": "@ui/chart.tsx"
+        }
+      ]
+    },
+    {
+      "name": "checkbox",
+      "type": "registry:ui",
+      "title": "Checkbox",
+      "dependencies": [
+        "@base-ui/react",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/checkbox.tsx",
+          "type": "registry:ui",
+          "target": "@ui/checkbox.tsx"
+        }
+      ]
+    },
+    {
+      "name": "collapsible",
+      "type": "registry:ui",
+      "title": "Collapsible",
+      "dependencies": [
+        "@base-ui/react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/collapsible.tsx",
+          "type": "registry:ui",
+          "target": "@ui/collapsible.tsx"
+        }
+      ]
+    },
+    {
+      "name": "combobox",
+      "type": "registry:ui",
+      "title": "Combobox",
+      "dependencies": [
+        "@base-ui/react",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0",
+        "ajbridges/design-system/button#v0.1.0",
+        "ajbridges/design-system/input-group#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/combobox.tsx",
+          "type": "registry:ui",
+          "target": "@ui/combobox.tsx"
+        }
+      ]
+    },
+    {
+      "name": "command",
+      "type": "registry:ui",
+      "title": "Command",
+      "dependencies": [
+        "cmdk",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0",
+        "ajbridges/design-system/dialog#v0.1.0",
+        "ajbridges/design-system/input-group#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/command.tsx",
+          "type": "registry:ui",
+          "target": "@ui/command.tsx"
+        }
+      ]
+    },
+    {
+      "name": "context-menu",
+      "type": "registry:ui",
+      "title": "Context Menu",
+      "dependencies": [
+        "@base-ui/react",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/context-menu.tsx",
+          "type": "registry:ui",
+          "target": "@ui/context-menu.tsx"
+        }
+      ]
+    },
+    {
+      "name": "dialog",
+      "type": "registry:ui",
+      "title": "Dialog",
+      "dependencies": [
+        "@base-ui/react",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0",
+        "ajbridges/design-system/button#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/dialog.tsx",
+          "type": "registry:ui",
+          "target": "@ui/dialog.tsx"
+        }
+      ]
+    },
+    {
+      "name": "drawer",
+      "type": "registry:ui",
+      "title": "Drawer",
+      "dependencies": [
+        "@base-ui/react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/drawer.tsx",
+          "type": "registry:ui",
+          "target": "@ui/drawer.tsx"
+        }
+      ]
+    },
+    {
+      "name": "dropdown-menu",
+      "type": "registry:ui",
+      "title": "Dropdown Menu",
+      "dependencies": [
+        "@base-ui/react",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/dropdown-menu.tsx",
+          "type": "registry:ui",
+          "target": "@ui/dropdown-menu.tsx"
+        }
+      ]
+    },
+    {
+      "name": "empty",
+      "type": "registry:ui",
+      "title": "Empty",
+      "dependencies": [
+        "class-variance-authority"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/empty.tsx",
+          "type": "registry:ui",
+          "target": "@ui/empty.tsx"
+        }
+      ]
+    },
+    {
+      "name": "field",
+      "type": "registry:ui",
+      "title": "Field",
+      "dependencies": [
+        "class-variance-authority"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0",
+        "ajbridges/design-system/label#v0.1.0",
+        "ajbridges/design-system/separator#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/field.tsx",
+          "type": "registry:ui",
+          "target": "@ui/field.tsx"
+        }
+      ]
+    },
+    {
+      "name": "hover-card",
+      "type": "registry:ui",
+      "title": "Hover Card",
+      "dependencies": [
+        "@base-ui/react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/hover-card.tsx",
+          "type": "registry:ui",
+          "target": "@ui/hover-card.tsx"
+        }
+      ]
+    },
+    {
+      "name": "input",
+      "type": "registry:ui",
+      "title": "Input",
+      "dependencies": [
+        "@base-ui/react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/input.tsx",
+          "type": "registry:ui",
+          "target": "@ui/input.tsx"
+        }
+      ]
+    },
+    {
+      "name": "input-group",
+      "type": "registry:ui",
+      "title": "Input Group",
+      "dependencies": [
+        "class-variance-authority"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0",
+        "ajbridges/design-system/button#v0.1.0",
+        "ajbridges/design-system/input#v0.1.0",
+        "ajbridges/design-system/textarea#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/input-group.tsx",
+          "type": "registry:ui",
+          "target": "@ui/input-group.tsx"
+        }
+      ]
+    },
+    {
+      "name": "input-otp",
+      "type": "registry:ui",
+      "title": "Input OTP",
+      "dependencies": [
+        "input-otp",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/input-otp.tsx",
+          "type": "registry:ui",
+          "target": "@ui/input-otp.tsx"
+        }
+      ]
+    },
+    {
+      "name": "item",
+      "type": "registry:ui",
+      "title": "Item",
+      "dependencies": [
+        "@base-ui/react",
+        "class-variance-authority"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0",
+        "ajbridges/design-system/separator#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/item.tsx",
+          "type": "registry:ui",
+          "target": "@ui/item.tsx"
+        }
+      ]
+    },
+    {
+      "name": "kbd",
+      "type": "registry:ui",
+      "title": "Kbd",
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/kbd.tsx",
+          "type": "registry:ui",
+          "target": "@ui/kbd.tsx"
+        }
+      ]
+    },
+    {
+      "name": "label",
+      "type": "registry:ui",
+      "title": "Label",
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/label.tsx",
+          "type": "registry:ui",
+          "target": "@ui/label.tsx"
+        }
+      ]
+    },
+    {
+      "name": "menubar",
+      "type": "registry:ui",
+      "title": "Menubar",
+      "dependencies": [
+        "@base-ui/react",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0",
+        "ajbridges/design-system/dropdown-menu#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/menubar.tsx",
+          "type": "registry:ui",
+          "target": "@ui/menubar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "native-select",
+      "type": "registry:ui",
+      "title": "Native Select",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/native-select.tsx",
+          "type": "registry:ui",
+          "target": "@ui/native-select.tsx"
+        }
+      ]
+    },
+    {
+      "name": "navigation-menu",
+      "type": "registry:ui",
+      "title": "Navigation Menu",
+      "dependencies": [
+        "@base-ui/react",
+        "class-variance-authority",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/navigation-menu.tsx",
+          "type": "registry:ui",
+          "target": "@ui/navigation-menu.tsx"
+        }
+      ]
+    },
+    {
+      "name": "pagination",
+      "type": "registry:ui",
+      "title": "Pagination",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0",
+        "ajbridges/design-system/button#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/pagination.tsx",
+          "type": "registry:ui",
+          "target": "@ui/pagination.tsx"
+        }
+      ]
+    },
+    {
+      "name": "popover",
+      "type": "registry:ui",
+      "title": "Popover",
+      "dependencies": [
+        "@base-ui/react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/popover.tsx",
+          "type": "registry:ui",
+          "target": "@ui/popover.tsx"
+        }
+      ]
+    },
+    {
+      "name": "progress",
+      "type": "registry:ui",
+      "title": "Progress",
+      "dependencies": [
+        "@base-ui/react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/progress.tsx",
+          "type": "registry:ui",
+          "target": "@ui/progress.tsx"
+        }
+      ]
+    },
+    {
+      "name": "radio-group",
+      "type": "registry:ui",
+      "title": "Radio Group",
+      "dependencies": [
+        "@base-ui/react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/radio-group.tsx",
+          "type": "registry:ui",
+          "target": "@ui/radio-group.tsx"
+        }
+      ]
+    },
+    {
+      "name": "resizable",
+      "type": "registry:ui",
+      "title": "Resizable",
+      "dependencies": [
+        "react-resizable-panels"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/resizable.tsx",
+          "type": "registry:ui",
+          "target": "@ui/resizable.tsx"
+        }
+      ]
+    },
+    {
+      "name": "scroll-area",
+      "type": "registry:ui",
+      "title": "Scroll Area",
+      "dependencies": [
+        "@base-ui/react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/scroll-area.tsx",
+          "type": "registry:ui",
+          "target": "@ui/scroll-area.tsx"
+        }
+      ]
+    },
+    {
+      "name": "select",
+      "type": "registry:ui",
+      "title": "Select",
+      "dependencies": [
+        "@base-ui/react",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/select.tsx",
+          "type": "registry:ui",
+          "target": "@ui/select.tsx"
+        }
+      ]
+    },
+    {
+      "name": "separator",
+      "type": "registry:ui",
+      "title": "Separator",
+      "dependencies": [
+        "@base-ui/react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/separator.tsx",
+          "type": "registry:ui",
+          "target": "@ui/separator.tsx"
+        }
+      ]
+    },
+    {
+      "name": "sheet",
+      "type": "registry:ui",
+      "title": "Sheet",
+      "dependencies": [
+        "@base-ui/react",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0",
+        "ajbridges/design-system/button#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/sheet.tsx",
+          "type": "registry:ui",
+          "target": "@ui/sheet.tsx"
+        }
+      ]
+    },
+    {
+      "name": "sidebar",
+      "type": "registry:ui",
+      "title": "Sidebar",
+      "dependencies": [
+        "@base-ui/react",
+        "class-variance-authority",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0",
+        "ajbridges/design-system/button#v0.1.0",
+        "ajbridges/design-system/input#v0.1.0",
+        "ajbridges/design-system/separator#v0.1.0",
+        "ajbridges/design-system/sheet#v0.1.0",
+        "ajbridges/design-system/skeleton#v0.1.0",
+        "ajbridges/design-system/tooltip#v0.1.0",
+        "ajbridges/design-system/use-mobile#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/sidebar.tsx",
+          "type": "registry:ui",
+          "target": "@ui/sidebar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "skeleton",
+      "type": "registry:ui",
+      "title": "Skeleton",
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/skeleton.tsx",
+          "type": "registry:ui",
+          "target": "@ui/skeleton.tsx"
+        }
+      ]
+    },
+    {
+      "name": "slider",
+      "type": "registry:ui",
+      "title": "Slider",
+      "dependencies": [
+        "@base-ui/react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/slider.tsx",
+          "type": "registry:ui",
+          "target": "@ui/slider.tsx"
+        }
+      ]
+    },
+    {
+      "name": "spinner",
+      "type": "registry:ui",
+      "title": "Spinner",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/spinner.tsx",
+          "type": "registry:ui",
+          "target": "@ui/spinner.tsx"
+        }
+      ]
+    },
+    {
+      "name": "switch",
+      "type": "registry:ui",
+      "title": "Switch",
+      "dependencies": [
+        "@base-ui/react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/switch.tsx",
+          "type": "registry:ui",
+          "target": "@ui/switch.tsx"
+        }
+      ]
+    },
+    {
+      "name": "table",
+      "type": "registry:ui",
+      "title": "Table",
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/table.tsx",
+          "type": "registry:ui",
+          "target": "@ui/table.tsx"
+        }
+      ]
+    },
+    {
+      "name": "tabs",
+      "type": "registry:ui",
+      "title": "Tabs",
+      "dependencies": [
+        "@base-ui/react",
+        "class-variance-authority"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/tabs.tsx",
+          "type": "registry:ui",
+          "target": "@ui/tabs.tsx"
+        }
+      ]
+    },
+    {
+      "name": "textarea",
+      "type": "registry:ui",
+      "title": "Textarea",
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/textarea.tsx",
+          "type": "registry:ui",
+          "target": "@ui/textarea.tsx"
+        }
+      ]
+    },
+    {
+      "name": "toast",
+      "type": "registry:ui",
+      "title": "Toast",
+      "dependencies": [
+        "@base-ui/react",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0",
+        "ajbridges/design-system/button#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/toast.tsx",
+          "type": "registry:ui",
+          "target": "@ui/toast.tsx"
+        }
+      ]
+    },
+    {
+      "name": "sonner",
+      "type": "registry:ui",
+      "title": "Sonner",
+      "dependencies": [
+        "sonner",
+        "next-themes",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/sonner.tsx",
+          "type": "registry:ui",
+          "target": "@ui/sonner.tsx"
+        }
+      ]
+    },
+    {
+      "name": "toggle",
+      "type": "registry:ui",
+      "title": "Toggle",
+      "dependencies": [
+        "@base-ui/react",
+        "class-variance-authority"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/toggle.tsx",
+          "type": "registry:ui",
+          "target": "@ui/toggle.tsx"
+        }
+      ]
+    },
+    {
+      "name": "toggle-group",
+      "type": "registry:ui",
+      "title": "Toggle Group",
+      "dependencies": [
+        "@base-ui/react",
+        "class-variance-authority"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0",
+        "ajbridges/design-system/toggle#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/toggle-group.tsx",
+          "type": "registry:ui",
+          "target": "@ui/toggle-group.tsx"
+        }
+      ]
+    },
+    {
+      "name": "tooltip",
+      "type": "registry:ui",
+      "title": "Tooltip",
+      "description": "Wrap the app in TooltipProvider from @/components/ui/tooltip.",
+      "docs": "The tooltip component has been added. Wrap your app with TooltipProvider from @/components/ui/tooltip.",
+      "dependencies": [
+        "@base-ui/react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/tooltip.tsx",
+          "type": "registry:ui",
+          "target": "@ui/tooltip.tsx"
+        }
+      ]
+    },
+    {
+      "name": "agent-rules",
+      "type": "registry:file",
+      "title": "Agent rules",
+      "description": "AGENTS.md (the rules), CLAUDE.md (loads them in Claude Code every session) and a check script that catches hardcoded colors.",
+      "docs": "Claude Code now loads AGENTS.md automatically via CLAUDE.md. Run `node scripts/check-design-system.mjs` to check for off-system colors. Tip: add it to package.json as \"check:ds\".",
+      "files": [
+        {
+          "path": "AGENTS.md",
+          "type": "registry:file",
+          "target": "~/AGENTS.md"
+        },
+        {
+          "path": "templates/CLAUDE.md",
+          "type": "registry:file",
+          "target": "~/CLAUDE.md"
+        },
+        {
+          "path": "scripts/check-design-system.mjs",
+          "type": "registry:file",
+          "target": "~/scripts/check-design-system.mjs"
+        }
+      ]
+    },
+    {
+      "name": "starter",
+      "type": "registry:item",
+      "title": "Everything",
+      "description": "Theme, utils, all components and agent rules in one install.",
+      "registryDependencies": [
+        "ajbridges/design-system/theme#v0.1.0",
+        "ajbridges/design-system/utils#v0.1.0",
+        "ajbridges/design-system/use-mobile#v0.1.0",
+        "ajbridges/design-system/accordion#v0.1.0",
+        "ajbridges/design-system/alert#v0.1.0",
+        "ajbridges/design-system/alert-dialog#v0.1.0",
+        "ajbridges/design-system/aspect-ratio#v0.1.0",
+        "ajbridges/design-system/avatar#v0.1.0",
+        "ajbridges/design-system/badge#v0.1.0",
+        "ajbridges/design-system/breadcrumb#v0.1.0",
+        "ajbridges/design-system/button#v0.1.0",
+        "ajbridges/design-system/button-group#v0.1.0",
+        "ajbridges/design-system/calendar#v0.1.0",
+        "ajbridges/design-system/card#v0.1.0",
+        "ajbridges/design-system/carousel#v0.1.0",
+        "ajbridges/design-system/chart#v0.1.0",
+        "ajbridges/design-system/checkbox#v0.1.0",
+        "ajbridges/design-system/collapsible#v0.1.0",
+        "ajbridges/design-system/combobox#v0.1.0",
+        "ajbridges/design-system/command#v0.1.0",
+        "ajbridges/design-system/context-menu#v0.1.0",
+        "ajbridges/design-system/dialog#v0.1.0",
+        "ajbridges/design-system/drawer#v0.1.0",
+        "ajbridges/design-system/dropdown-menu#v0.1.0",
+        "ajbridges/design-system/empty#v0.1.0",
+        "ajbridges/design-system/field#v0.1.0",
+        "ajbridges/design-system/hover-card#v0.1.0",
+        "ajbridges/design-system/input#v0.1.0",
+        "ajbridges/design-system/input-group#v0.1.0",
+        "ajbridges/design-system/input-otp#v0.1.0",
+        "ajbridges/design-system/item#v0.1.0",
+        "ajbridges/design-system/kbd#v0.1.0",
+        "ajbridges/design-system/label#v0.1.0",
+        "ajbridges/design-system/menubar#v0.1.0",
+        "ajbridges/design-system/native-select#v0.1.0",
+        "ajbridges/design-system/navigation-menu#v0.1.0",
+        "ajbridges/design-system/pagination#v0.1.0",
+        "ajbridges/design-system/popover#v0.1.0",
+        "ajbridges/design-system/progress#v0.1.0",
+        "ajbridges/design-system/radio-group#v0.1.0",
+        "ajbridges/design-system/resizable#v0.1.0",
+        "ajbridges/design-system/scroll-area#v0.1.0",
+        "ajbridges/design-system/select#v0.1.0",
+        "ajbridges/design-system/separator#v0.1.0",
+        "ajbridges/design-system/sheet#v0.1.0",
+        "ajbridges/design-system/sidebar#v0.1.0",
+        "ajbridges/design-system/skeleton#v0.1.0",
+        "ajbridges/design-system/slider#v0.1.0",
+        "ajbridges/design-system/spinner#v0.1.0",
+        "ajbridges/design-system/switch#v0.1.0",
+        "ajbridges/design-system/table#v0.1.0",
+        "ajbridges/design-system/tabs#v0.1.0",
+        "ajbridges/design-system/textarea#v0.1.0",
+        "ajbridges/design-system/toast#v0.1.0",
+        "ajbridges/design-system/sonner#v0.1.0",
+        "ajbridges/design-system/toggle#v0.1.0",
+        "ajbridges/design-system/toggle-group#v0.1.0",
+        "ajbridges/design-system/tooltip#v0.1.0",
+        "ajbridges/design-system/agent-rules#v0.1.0"
+      ]
+    }
+  ]
+}
