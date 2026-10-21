@@ -109,7 +109,6 @@
         "font-dm-sans"
       ],
       "css": {
-        "@import url(\"https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap\")": {},
         "@layer base": {
           "button:not(:disabled), [role='button']:not(:disabled)": {
             "cursor": "pointer"
@@ -1256,10 +1255,10 @@
       ]
     },
     {
-    "name": "starter",
-    "type": "registry:base",
-    "title": "Everything",
-    "description": "Theme, utils, all components and agent rules in one install. Typed as registry:base so the shadcn CLI replaces the default theme tokens (blue primary, DM Sans, large radius) instead of only appending new variables.",
+      "name": "starter",
+      "type": "registry:base",
+      "title": "Everything",
+      "description": "Theme, utils, all components and agent rules in one install. Typed as registry:base so the shadcn CLI replaces the default theme tokens (blue primary, DM Sans, large radius) instead of only appending new variables.",
       "registryDependencies": [
         "ajbridges/design-system/theme#v0.1.0",
         "ajbridges/design-system/utils#v0.1.0",
