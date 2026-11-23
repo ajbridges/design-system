@@ -2,7 +2,7 @@ import tseslint from "typescript-eslint"
 import reactHooks from "eslint-plugin-react-hooks"
 
 export default tseslint.config({
-  files: ["registry/**/*.{ts,tsx}", "showcase/**/*.{ts,tsx}"],
+  files: ["registry/**/*.{ts,tsx}", "showcase/**/*.{ts,tsx}", "stories/**/*.{ts,tsx}"],
   extends: [tseslint.configs.base],
   plugins: { "react-hooks": reactHooks },
   languageOptions: {

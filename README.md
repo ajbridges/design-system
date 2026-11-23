@@ -118,4 +118,7 @@ npm install
 npm run check      # tokens, typecheck, lint, design-system color check, Jazzfolio contrast
 npm run validate   # shadcn registry validate ajbridges/design-system
 npm run showcase   # Jazzfolio preview at http://localhost:4173
+npm run storybook  # component stories at http://localhost:6006
 ```
+
+Storybook is for local review. It is not a registry item, and `storybook-static/` is not published. Jazzfolio is the default canvas. The toolbar can switch to the neutral light and dark themes.

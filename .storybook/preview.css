@@ -1,0 +1,24 @@
+@import "../tokens/jazzfolio.css";
+@source "../registry";
+@source "../stories";
+
+html,
+body,
+#storybook-root {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+/* Neutral themes opt out of the Jazzfolio pill and hover overrides. */
+.theme-neutral [data-slot="button"] {
+  border-radius: var(--radius);
+}
+
+.theme-neutral [data-slot="button"][data-variant="default"]:hover {
+  background-color: color-mix(in oklch, var(--primary) 80%, transparent);
+  color: var(--primary-foreground);
+}
+
+.theme-neutral [data-slot="button"][data-variant="default"]:active {
+  background-color: color-mix(in oklch, var(--primary) 70%, transparent);
+}
