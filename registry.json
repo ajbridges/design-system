@@ -418,8 +418,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -437,8 +437,8 @@
         "class-variance-authority"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -456,9 +456,9 @@
         "@base-ui/react"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0",
-        "ajbridges/design-system/button#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0",
+        "ajbridges/design-system/button#v0.2.0"
       ],
       "files": [
         {
@@ -473,8 +473,8 @@
       "type": "registry:ui",
       "title": "Aspect Ratio",
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -492,8 +492,8 @@
         "@base-ui/react"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -513,8 +513,8 @@
         "class-variance-authority"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -533,8 +533,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -554,8 +554,8 @@
         "class-variance-authority"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -574,9 +574,9 @@
         "class-variance-authority"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0",
-        "ajbridges/design-system/separator#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0",
+        "ajbridges/design-system/separator#v0.2.0"
       ],
       "files": [
         {
@@ -596,9 +596,9 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0",
-        "ajbridges/design-system/button#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0",
+        "ajbridges/design-system/button#v0.2.0"
       ],
       "files": [
         {
@@ -613,8 +613,8 @@
       "type": "registry:ui",
       "title": "Card",
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -633,9 +633,9 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0",
-        "ajbridges/design-system/button#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0",
+        "ajbridges/design-system/button#v0.2.0"
       ],
       "files": [
         {
@@ -653,9 +653,9 @@
         "recharts@3.8.0"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0",
-        "ajbridges/design-system/card#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0",
+        "ajbridges/design-system/card#v0.2.0"
       ],
       "files": [
         {
@@ -674,8 +674,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -693,8 +693,8 @@
         "@base-ui/react"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -713,10 +713,10 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0",
-        "ajbridges/design-system/button#v0.1.0",
-        "ajbridges/design-system/input-group#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0",
+        "ajbridges/design-system/button#v0.2.0",
+        "ajbridges/design-system/input-group#v0.2.0"
       ],
       "files": [
         {
@@ -735,10 +735,10 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0",
-        "ajbridges/design-system/dialog#v0.1.0",
-        "ajbridges/design-system/input-group#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0",
+        "ajbridges/design-system/dialog#v0.2.0",
+        "ajbridges/design-system/input-group#v0.2.0"
       ],
       "files": [
         {
@@ -757,8 +757,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -777,9 +777,9 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0",
-        "ajbridges/design-system/button#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0",
+        "ajbridges/design-system/button#v0.2.0"
       ],
       "files": [
         {
@@ -797,8 +797,8 @@
         "@base-ui/react"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -817,8 +817,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -836,8 +836,8 @@
         "class-variance-authority"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -855,10 +855,10 @@
         "class-variance-authority"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0",
-        "ajbridges/design-system/label#v0.1.0",
-        "ajbridges/design-system/separator#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0",
+        "ajbridges/design-system/label#v0.2.0",
+        "ajbridges/design-system/separator#v0.2.0"
       ],
       "files": [
         {
@@ -876,8 +876,8 @@
         "@base-ui/react"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -895,8 +895,8 @@
         "@base-ui/react"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -914,11 +914,11 @@
         "class-variance-authority"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0",
-        "ajbridges/design-system/button#v0.1.0",
-        "ajbridges/design-system/input#v0.1.0",
-        "ajbridges/design-system/textarea#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0",
+        "ajbridges/design-system/button#v0.2.0",
+        "ajbridges/design-system/input#v0.2.0",
+        "ajbridges/design-system/textarea#v0.2.0"
       ],
       "files": [
         {
@@ -937,8 +937,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -957,9 +957,9 @@
         "class-variance-authority"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0",
-        "ajbridges/design-system/separator#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0",
+        "ajbridges/design-system/separator#v0.2.0"
       ],
       "files": [
         {
@@ -974,8 +974,8 @@
       "type": "registry:ui",
       "title": "Kbd",
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -990,8 +990,8 @@
       "type": "registry:ui",
       "title": "Label",
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -1010,9 +1010,9 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0",
-        "ajbridges/design-system/dropdown-menu#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0",
+        "ajbridges/design-system/dropdown-menu#v0.2.0"
       ],
       "files": [
         {
@@ -1030,8 +1030,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -1051,8 +1051,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -1070,9 +1070,9 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0",
-        "ajbridges/design-system/button#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0",
+        "ajbridges/design-system/button#v0.2.0"
       ],
       "files": [
         {
@@ -1090,8 +1090,8 @@
         "@base-ui/react"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -1109,8 +1109,8 @@
         "@base-ui/react"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -1128,8 +1128,8 @@
         "@base-ui/react"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -1147,8 +1147,8 @@
         "react-resizable-panels"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -1166,8 +1166,8 @@
         "@base-ui/react"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -1186,8 +1186,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -1205,8 +1205,8 @@
         "@base-ui/react"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -1225,9 +1225,9 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0",
-        "ajbridges/design-system/button#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0",
+        "ajbridges/design-system/button#v0.2.0"
       ],
       "files": [
         {
@@ -1247,15 +1247,15 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0",
-        "ajbridges/design-system/button#v0.1.0",
-        "ajbridges/design-system/input#v0.1.0",
-        "ajbridges/design-system/separator#v0.1.0",
-        "ajbridges/design-system/sheet#v0.1.0",
-        "ajbridges/design-system/skeleton#v0.1.0",
-        "ajbridges/design-system/tooltip#v0.1.0",
-        "ajbridges/design-system/use-mobile#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0",
+        "ajbridges/design-system/button#v0.2.0",
+        "ajbridges/design-system/input#v0.2.0",
+        "ajbridges/design-system/separator#v0.2.0",
+        "ajbridges/design-system/sheet#v0.2.0",
+        "ajbridges/design-system/skeleton#v0.2.0",
+        "ajbridges/design-system/tooltip#v0.2.0",
+        "ajbridges/design-system/use-mobile#v0.2.0"
       ],
       "files": [
         {
@@ -1270,8 +1270,8 @@
       "type": "registry:ui",
       "title": "Skeleton",
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -1289,8 +1289,8 @@
         "@base-ui/react"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -1308,8 +1308,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -1327,8 +1327,8 @@
         "@base-ui/react"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -1343,8 +1343,8 @@
       "type": "registry:ui",
       "title": "Table",
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -1363,8 +1363,8 @@
         "class-variance-authority"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -1379,8 +1379,8 @@
       "type": "registry:ui",
       "title": "Textarea",
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -1399,9 +1399,9 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0",
-        "ajbridges/design-system/button#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0",
+        "ajbridges/design-system/button#v0.2.0"
       ],
       "files": [
         {
@@ -1421,8 +1421,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -1441,8 +1441,8 @@
         "class-variance-authority"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -1461,9 +1461,9 @@
         "class-variance-authority"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0",
-        "ajbridges/design-system/toggle#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0",
+        "ajbridges/design-system/toggle#v0.2.0"
       ],
       "files": [
         {
@@ -1483,8 +1483,8 @@
         "@base-ui/react"
       ],
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0"
       ],
       "files": [
         {
@@ -1519,70 +1519,296 @@
       ]
     },
     {
+      "name": "format-date",
+      "type": "registry:lib",
+      "title": "Event dates",
+      "description": "Parse ISO dates and format them for event UI.",
+      "dependencies": [
+        "date-fns"
+      ],
+      "files": [
+        {
+          "path": "registry/lib/format-date.ts",
+          "type": "registry:lib",
+          "target": "@lib/format-date.ts"
+        }
+      ]
+    },
+    {
+      "name": "use-controllable",
+      "type": "registry:hook",
+      "title": "useControllableBoolean",
+      "description": "Controlled or uncontrolled boolean for follow, like, and save.",
+      "files": [
+        {
+          "path": "registry/hooks/use-controllable.ts",
+          "type": "registry:hook",
+          "target": "@hooks/use-controllable.ts"
+        }
+      ]
+    },
+    {
+      "name": "date-badge",
+      "type": "registry:ui",
+      "title": "Date badge",
+      "description": "Stacked month and day in the accent color. Sentence case, at least 44px.",
+      "dependencies": [
+        "date-fns"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/utils#v0.2.0",
+        "ajbridges/design-system/format-date#v0.2.0",
+        "ajbridges/design-system/theme-jazzfolio#v0.2.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/date-badge.tsx",
+          "type": "registry:ui",
+          "target": "@ui/date-badge.tsx"
+        }
+      ]
+    },
+    {
+      "name": "ticket-status-pill",
+      "type": "registry:ui",
+      "title": "Ticket status pill",
+      "description": "On sale, few left, sold out, no cover, or cancelled. Built on Badge.",
+      "registryDependencies": [
+        "ajbridges/design-system/utils#v0.2.0",
+        "ajbridges/design-system/badge#v0.2.0",
+        "ajbridges/design-system/theme-jazzfolio#v0.2.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/ticket-status-pill.tsx",
+          "type": "registry:ui",
+          "target": "@ui/ticket-status-pill.tsx"
+        }
+      ]
+    },
+    {
+      "name": "follow-button",
+      "type": "registry:ui",
+      "title": "Follow button",
+      "description": "Pill button with follow and following states. 44px tall.",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/utils#v0.2.0",
+        "ajbridges/design-system/button#v0.2.0",
+        "ajbridges/design-system/use-controllable#v0.2.0",
+        "ajbridges/design-system/theme-jazzfolio#v0.2.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/follow-button.tsx",
+          "type": "registry:ui",
+          "target": "@ui/follow-button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "like-button",
+      "type": "registry:ui",
+      "title": "Like button",
+      "description": "Toggle heart with an optional count. 44px target.",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/utils#v0.2.0",
+        "ajbridges/design-system/button#v0.2.0",
+        "ajbridges/design-system/use-controllable#v0.2.0",
+        "ajbridges/design-system/theme-jazzfolio#v0.2.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/like-button.tsx",
+          "type": "registry:ui",
+          "target": "@ui/like-button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "save-button",
+      "type": "registry:ui",
+      "title": "Save button",
+      "description": "Toggle bookmark with an optional count. 44px target.",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/utils#v0.2.0",
+        "ajbridges/design-system/button#v0.2.0",
+        "ajbridges/design-system/use-controllable#v0.2.0",
+        "ajbridges/design-system/theme-jazzfolio#v0.2.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/save-button.tsx",
+          "type": "registry:ui",
+          "target": "@ui/save-button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "event-card",
+      "type": "registry:ui",
+      "title": "Event card",
+      "description": "Poster or compact event. Stacks on narrow screens and becomes a row on wide ones. Image or artist-color gradient into black, title, date, venue, price or status, like and save.",
+      "registryDependencies": [
+        "ajbridges/design-system/utils#v0.2.0",
+        "ajbridges/design-system/date-badge#v0.2.0",
+        "ajbridges/design-system/ticket-status-pill#v0.2.0",
+        "ajbridges/design-system/like-button#v0.2.0",
+        "ajbridges/design-system/save-button#v0.2.0",
+        "ajbridges/design-system/theme-jazzfolio#v0.2.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/event-card.tsx",
+          "type": "registry:ui",
+          "target": "@ui/event-card.tsx"
+        }
+      ]
+    },
+    {
+      "name": "feed-post",
+      "type": "registry:ui",
+      "title": "Feed post",
+      "description": "Artist or venue post with avatar, text, optional event card, and like, save, and share. Stacked on narrow screens, row on wide screens.",
+      "dependencies": [
+        "date-fns",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/utils#v0.2.0",
+        "ajbridges/design-system/format-date#v0.2.0",
+        "ajbridges/design-system/avatar#v0.2.0",
+        "ajbridges/design-system/button#v0.2.0",
+        "ajbridges/design-system/event-card#v0.2.0",
+        "ajbridges/design-system/like-button#v0.2.0",
+        "ajbridges/design-system/save-button#v0.2.0",
+        "ajbridges/design-system/theme-jazzfolio#v0.2.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/feed-post.tsx",
+          "type": "registry:ui",
+          "target": "@ui/feed-post.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar-month",
+      "type": "registry:ui",
+      "title": "Calendar month",
+      "description": "A month of events. Day list on narrow screens, seven-column month on wide screens.",
+      "dependencies": [
+        "date-fns",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "ajbridges/design-system/utils#v0.2.0",
+        "ajbridges/design-system/format-date#v0.2.0",
+        "ajbridges/design-system/button#v0.2.0",
+        "ajbridges/design-system/empty#v0.2.0",
+        "ajbridges/design-system/ticket-status-pill#v0.2.0",
+        "ajbridges/design-system/theme-jazzfolio#v0.2.0"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/calendar-month.tsx",
+          "type": "registry:ui",
+          "target": "@ui/calendar-month.tsx"
+        }
+      ]
+    },
+    {
       "name": "starter",
       "type": "registry:base",
       "title": "Everything",
       "description": "Theme, utils, all components and agent rules in one install. Typed as registry:base so the shadcn CLI replaces the default theme tokens (blue primary, DM Sans, large radius) instead of only appending new variables.",
       "registryDependencies": [
-        "ajbridges/design-system/theme#v0.1.0",
-        "ajbridges/design-system/utils#v0.1.0",
-        "ajbridges/design-system/use-mobile#v0.1.0",
-        "ajbridges/design-system/accordion#v0.1.0",
-        "ajbridges/design-system/alert#v0.1.0",
-        "ajbridges/design-system/alert-dialog#v0.1.0",
-        "ajbridges/design-system/aspect-ratio#v0.1.0",
-        "ajbridges/design-system/avatar#v0.1.0",
-        "ajbridges/design-system/badge#v0.1.0",
-        "ajbridges/design-system/breadcrumb#v0.1.0",
-        "ajbridges/design-system/button#v0.1.0",
-        "ajbridges/design-system/button-group#v0.1.0",
-        "ajbridges/design-system/calendar#v0.1.0",
-        "ajbridges/design-system/card#v0.1.0",
-        "ajbridges/design-system/carousel#v0.1.0",
-        "ajbridges/design-system/chart#v0.1.0",
-        "ajbridges/design-system/checkbox#v0.1.0",
-        "ajbridges/design-system/collapsible#v0.1.0",
-        "ajbridges/design-system/combobox#v0.1.0",
-        "ajbridges/design-system/command#v0.1.0",
-        "ajbridges/design-system/context-menu#v0.1.0",
-        "ajbridges/design-system/dialog#v0.1.0",
-        "ajbridges/design-system/drawer#v0.1.0",
-        "ajbridges/design-system/dropdown-menu#v0.1.0",
-        "ajbridges/design-system/empty#v0.1.0",
-        "ajbridges/design-system/field#v0.1.0",
-        "ajbridges/design-system/hover-card#v0.1.0",
-        "ajbridges/design-system/input#v0.1.0",
-        "ajbridges/design-system/input-group#v0.1.0",
-        "ajbridges/design-system/input-otp#v0.1.0",
-        "ajbridges/design-system/item#v0.1.0",
-        "ajbridges/design-system/kbd#v0.1.0",
-        "ajbridges/design-system/label#v0.1.0",
-        "ajbridges/design-system/menubar#v0.1.0",
-        "ajbridges/design-system/native-select#v0.1.0",
-        "ajbridges/design-system/navigation-menu#v0.1.0",
-        "ajbridges/design-system/pagination#v0.1.0",
-        "ajbridges/design-system/popover#v0.1.0",
-        "ajbridges/design-system/progress#v0.1.0",
-        "ajbridges/design-system/radio-group#v0.1.0",
-        "ajbridges/design-system/resizable#v0.1.0",
-        "ajbridges/design-system/scroll-area#v0.1.0",
-        "ajbridges/design-system/select#v0.1.0",
-        "ajbridges/design-system/separator#v0.1.0",
-        "ajbridges/design-system/sheet#v0.1.0",
-        "ajbridges/design-system/sidebar#v0.1.0",
-        "ajbridges/design-system/skeleton#v0.1.0",
-        "ajbridges/design-system/slider#v0.1.0",
-        "ajbridges/design-system/spinner#v0.1.0",
-        "ajbridges/design-system/switch#v0.1.0",
-        "ajbridges/design-system/table#v0.1.0",
-        "ajbridges/design-system/tabs#v0.1.0",
-        "ajbridges/design-system/textarea#v0.1.0",
-        "ajbridges/design-system/toast#v0.1.0",
-        "ajbridges/design-system/sonner#v0.1.0",
-        "ajbridges/design-system/toggle#v0.1.0",
-        "ajbridges/design-system/toggle-group#v0.1.0",
-        "ajbridges/design-system/tooltip#v0.1.0",
-        "ajbridges/design-system/agent-rules#v0.1.0"
+        "ajbridges/design-system/theme#v0.2.0",
+        "ajbridges/design-system/utils#v0.2.0",
+        "ajbridges/design-system/use-mobile#v0.2.0",
+        "ajbridges/design-system/accordion#v0.2.0",
+        "ajbridges/design-system/alert#v0.2.0",
+        "ajbridges/design-system/alert-dialog#v0.2.0",
+        "ajbridges/design-system/aspect-ratio#v0.2.0",
+        "ajbridges/design-system/avatar#v0.2.0",
+        "ajbridges/design-system/badge#v0.2.0",
+        "ajbridges/design-system/breadcrumb#v0.2.0",
+        "ajbridges/design-system/button#v0.2.0",
+        "ajbridges/design-system/button-group#v0.2.0",
+        "ajbridges/design-system/calendar#v0.2.0",
+        "ajbridges/design-system/card#v0.2.0",
+        "ajbridges/design-system/carousel#v0.2.0",
+        "ajbridges/design-system/chart#v0.2.0",
+        "ajbridges/design-system/checkbox#v0.2.0",
+        "ajbridges/design-system/collapsible#v0.2.0",
+        "ajbridges/design-system/combobox#v0.2.0",
+        "ajbridges/design-system/command#v0.2.0",
+        "ajbridges/design-system/context-menu#v0.2.0",
+        "ajbridges/design-system/dialog#v0.2.0",
+        "ajbridges/design-system/drawer#v0.2.0",
+        "ajbridges/design-system/dropdown-menu#v0.2.0",
+        "ajbridges/design-system/empty#v0.2.0",
+        "ajbridges/design-system/field#v0.2.0",
+        "ajbridges/design-system/hover-card#v0.2.0",
+        "ajbridges/design-system/input#v0.2.0",
+        "ajbridges/design-system/input-group#v0.2.0",
+        "ajbridges/design-system/input-otp#v0.2.0",
+        "ajbridges/design-system/item#v0.2.0",
+        "ajbridges/design-system/kbd#v0.2.0",
+        "ajbridges/design-system/label#v0.2.0",
+        "ajbridges/design-system/menubar#v0.2.0",
+        "ajbridges/design-system/native-select#v0.2.0",
+        "ajbridges/design-system/navigation-menu#v0.2.0",
+        "ajbridges/design-system/pagination#v0.2.0",
+        "ajbridges/design-system/popover#v0.2.0",
+        "ajbridges/design-system/progress#v0.2.0",
+        "ajbridges/design-system/radio-group#v0.2.0",
+        "ajbridges/design-system/resizable#v0.2.0",
+        "ajbridges/design-system/scroll-area#v0.2.0",
+        "ajbridges/design-system/select#v0.2.0",
+        "ajbridges/design-system/separator#v0.2.0",
+        "ajbridges/design-system/sheet#v0.2.0",
+        "ajbridges/design-system/sidebar#v0.2.0",
+        "ajbridges/design-system/skeleton#v0.2.0",
+        "ajbridges/design-system/slider#v0.2.0",
+        "ajbridges/design-system/spinner#v0.2.0",
+        "ajbridges/design-system/switch#v0.2.0",
+        "ajbridges/design-system/table#v0.2.0",
+        "ajbridges/design-system/tabs#v0.2.0",
+        "ajbridges/design-system/textarea#v0.2.0",
+        "ajbridges/design-system/toast#v0.2.0",
+        "ajbridges/design-system/sonner#v0.2.0",
+        "ajbridges/design-system/toggle#v0.2.0",
+        "ajbridges/design-system/toggle-group#v0.2.0",
+        "ajbridges/design-system/tooltip#v0.2.0",
+        "ajbridges/design-system/agent-rules#v0.2.0"
+      ]
+    },
+    {
+      "name": "jazz",
+      "type": "registry:base",
+      "title": "Jazzfolio",
+      "description": "Dark Jazzfolio theme plus the live-jazz components: event card, date badge, ticket status, follow, like, save, feed post, and calendar month. Does not replace the starter bundle. Theme tokens overwrite the default palette, radius, and type.",
+      "registryDependencies": [
+        "ajbridges/design-system/format-date#v0.2.0",
+        "ajbridges/design-system/use-controllable#v0.2.0",
+        "ajbridges/design-system/date-badge#v0.2.0",
+        "ajbridges/design-system/ticket-status-pill#v0.2.0",
+        "ajbridges/design-system/follow-button#v0.2.0",
+        "ajbridges/design-system/like-button#v0.2.0",
+        "ajbridges/design-system/save-button#v0.2.0",
+        "ajbridges/design-system/event-card#v0.2.0",
+        "ajbridges/design-system/feed-post#v0.2.0",
+        "ajbridges/design-system/calendar-month#v0.2.0",
+        "ajbridges/design-system/theme-jazzfolio#v0.2.0"
       ]
     }
   ]
