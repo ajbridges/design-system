@@ -1,0 +1,52 @@
+import { ArgTypes, Canvas, Meta } from "@storybook/addon-docs/blocks"
+import * as Stories from "./event-card.stories"
+
+<Meta of={Stories} />
+
+# Event card
+
+## Overview
+
+A show in the book. It carries a poster or a short row, the title, the date, the room, a price or a status, and like and save.
+
+## When to use
+
+Use it for a set someone might open, like, or save.
+
+## When not to use
+
+Do not use it for a person or a room with no date. Use a feed post for a note, and a table when you are comparing many rows.
+
+## Anatomy
+
+Poster or gradient, date badge, title, venue, price or ticket status, like, and save. The poster variant is a tall image with the title beside it on a wide screen. The compact variant is a row.
+
+## Variants and states
+
+<Canvas of={Stories.Poster} />
+
+<Canvas of={Stories.Compact} />
+
+<Canvas of={Stories.WithPosterImage} />
+
+On sale, few left, sold out, no cover, and cancelled all use the status pill. A cancelled title is struck through. Like and save can be on or off, with or without a count.
+
+## Content guidelines
+
+Write the title in sentence case. Name the room so a person knows where to go. Use a price or a status, and both only when they say different things.
+
+## Accessibility
+
+The title can be a link. Like and save are separate buttons with names. The date badge is text, not a control. Poster images need a real alternative text when they carry meaning. Decorative washes can be described in a short phrase if they are the only image.
+
+## Do
+
+Use the poster for a featured set and the compact row inside a feed.
+
+## Don't
+
+Do not set the title in uppercase. Do not hide the venue. Do not make the whole card one link if like and save are inside it.
+
+## Props
+
+<ArgTypes of={Stories} />

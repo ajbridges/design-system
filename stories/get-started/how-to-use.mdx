@@ -1,0 +1,37 @@
+import { Meta } from "@storybook/addon-docs/blocks"
+
+<Meta title="Get started/How to use" />
+
+# How to use
+
+The app should already have run `npx shadcn@latest init`.
+
+Jazzfolio theme and the live-jazz components:
+
+```bash
+npx shadcn@latest add ajbridges/design-system/jazz#v0.2.0
+```
+
+Theme only:
+
+```bash
+npx shadcn@latest add ajbridges/design-system/theme-jazzfolio#v0.2.0
+```
+
+One component:
+
+```bash
+npx shadcn@latest add ajbridges/design-system/event-card#v0.2.0
+```
+
+The original system, without Jazzfolio:
+
+```bash
+npx shadcn@latest add ajbridges/design-system/starter#v0.2.0
+```
+
+`theme-jazzfolio` replaces color, radius, and type. Display text uses `font-heading`. Keep it in sentence case.
+
+If `lib/utils.ts` already exists, the CLI will ask before overwriting it. Pass `--overwrite` when you mean to replace it.
+
+Run Storybook locally with `npm run storybook`. These docs are not part of the published registry.

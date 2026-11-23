@@ -1,0 +1,50 @@
+import { ArgTypes, Canvas, Meta } from "@storybook/addon-docs/blocks"
+import * as Stories from "./calendar-month.stories"
+
+<Meta of={Stories} />
+
+# Calendar month
+
+## Overview
+
+One month of sets. A day list on a phone, a seven-column month on a wide screen.
+
+## When to use
+
+Use it to browse which nights have music.
+
+## When not to use
+
+Do not use it to pick an arbitrary date in a form. That is the calendar control.
+
+## Anatomy
+
+Month name, previous and next, then either grouped days or a grid. Each set can show a ticket status. Today uses the accent.
+
+## Variants and states
+
+<Canvas of={Stories.November} />
+
+<Canvas of={Stories.EmptyMonth} />
+
+An empty month says there are no sets. Selecting a day marks it.
+
+## Content guidelines
+
+Set titles stay in sentence case. Keep them short enough to truncate in a cell.
+
+## Accessibility
+
+Previous and next are named buttons. Day cells and list rows are buttons. The month name is a heading.
+
+## Do
+
+Pass the sets for that month. Let the layout switch at the md breakpoint.
+
+## Don't
+
+Do not show both the day list and the grid at once. Do not use uppercase weekday headings.
+
+## Props
+
+<ArgTypes of={Stories} />

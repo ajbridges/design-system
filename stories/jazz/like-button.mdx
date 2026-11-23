@@ -1,0 +1,50 @@
+import { ArgTypes, Canvas, Meta } from "@storybook/addon-docs/blocks"
+import * as Stories from "./like-button.stories"
+
+<Meta of={Stories} />
+
+# Like button
+
+## Overview
+
+A heart that toggles, with an optional count.
+
+## When to use
+
+Use it to like a set or a post.
+
+## When not to use
+
+Do not use it to save for later, or to follow a room.
+
+## Anatomy
+
+A 44px control. Heart, and a count when you pass one. Filled when liked.
+
+## Variants and states
+
+<Canvas of={Stories.Idle} />
+
+<Canvas of={Stories.Liked} />
+
+<Canvas of={Stories.IconOnly} />
+
+## Content guidelines
+
+The count is a number. Do not write "likes" next to it. The accessible name includes the word.
+
+## Accessibility
+
+The button name is Like or Unlike, plus the count when there is one. `aria-pressed` is set.
+
+## Do
+
+Show the count when the number matters.
+
+## Don't
+
+Do not use a heart for save. Do not omit the accessible name on the icon-only form.
+
+## Props
+
+<ArgTypes of={Stories} />
