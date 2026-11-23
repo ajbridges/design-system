@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList } from "@/components/ui/command"
 
-const meta = { title: "Components/Command", component: Command, tags: ["autodocs"] } satisfies Meta<typeof Command>
+const meta = { title: "Navigation/Command", component: Command, tags: ["autodocs"], parameters: { docs: { description: { component: "Search the book from the keyboard. When to use: power users jump to a set by name." } } } } satisfies Meta<typeof Command>
 export default meta
 type Story = StoryObj<typeof meta>
 export const Search: Story = {

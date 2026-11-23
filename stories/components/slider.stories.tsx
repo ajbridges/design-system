@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Slider } from "@/components/ui/slider"
 
-const meta = { title: "Components/Slider", component: Slider, tags: ["autodocs"] } satisfies Meta<typeof Slider>
+const meta = { title: "Forms/Slider", component: Slider, tags: ["autodocs"], parameters: { docs: { description: { component: "Choose a cover price along a range. When to use: the value is numeric and approximate." } } } } satisfies Meta<typeof Slider>
 export default meta
 type Story = StoryObj<typeof meta>
 export const Price: Story = {

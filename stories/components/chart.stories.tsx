@@ -9,7 +9,7 @@ const data = [
   { night: "Sat", covers: 460 },
 ]
 
-const meta = { title: "Components/Chart", component: ChartContainer, tags: ["autodocs"] } satisfies Meta<typeof ChartContainer>
+const meta = { title: "Data display/Chart", component: ChartContainer, tags: ["autodocs"], parameters: { docs: { description: { component: "Covers by night. When to use: a trend is clearer as a chart than as a table." } } } } satisfies Meta<typeof ChartContainer>
 export default meta
 type Story = StoryObj<typeof meta>
 export const Covers: Story = {

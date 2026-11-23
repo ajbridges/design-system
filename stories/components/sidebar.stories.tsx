@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Sidebar, SidebarContent, SidebarGroup, SidebarGroupContent, SidebarGroupLabel, SidebarHeader, SidebarInset, SidebarMenu, SidebarMenuButton, SidebarMenuItem, SidebarProvider } from "@/components/ui/sidebar"
 
-const meta = { title: "Components/Sidebar", component: Sidebar, tags: ["autodocs"] } satisfies Meta<typeof Sidebar>
+const meta = { title: "Navigation/Sidebar", component: Sidebar, tags: ["autodocs"], parameters: { docs: { description: { component: "A persistent list of rooms beside the page. When to use: an app shell with a stable set of sections." } } } } satisfies Meta<typeof Sidebar>
 export default meta
 type Story = StoryObj<typeof meta>
 export const Book: Story = {

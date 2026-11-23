@@ -7,9 +7,9 @@ const variants = ["default", "secondary", "outline", "ghost", "destructive", "li
 const sizes = ["xs", "sm", "default", "lg", "touch", "icon", "icon-xs", "icon-sm", "icon-lg", "icon-touch"] as const
 
 const meta = {
-  title: "Components/Button",
+  title: "Actions/Button",
   component: Button,
-  tags: ["autodocs"],
+  tags: ["autodocs"], parameters: { docs: { description: { component: "Starts an action: buy a ticket, follow a room, save a set. When to use: any click that changes something. Use a link variant only for navigation." } } },
   args: { children: "Get tickets", variant: "default", size: "touch" },
   argTypes: {
     variant: { control: "select", options: [...variants] },

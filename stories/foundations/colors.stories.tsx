@@ -46,7 +46,8 @@ const meta = {
   parameters: {
     docs: {
       description: {
-        component: "Every color token in the active theme, with its name and authored value.",
+        component:
+          "Every color token for the theme selected in the toolbar. When to use: pick a semantic name such as primary or card, never a raw color.",
       },
     },
   },

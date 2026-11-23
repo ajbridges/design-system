@@ -3,7 +3,7 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 
 const sets = ["SFJAZZ late set", "Tammy Hall at the Chapel", "No cover at Mr. Tipple's"]
 
-const meta = { title: "Components/Carousel", component: Carousel, tags: ["autodocs"] } satisfies Meta<typeof Carousel>
+const meta = { title: "Data display/Carousel", component: Carousel, tags: ["autodocs"], parameters: { docs: { description: { component: "A row of posters you can move through. When to use: a few featured sets, not the whole book." } } } } satisfies Meta<typeof Carousel>
 export default meta
 type Story = StoryObj<typeof meta>
 export const Sets: Story = {

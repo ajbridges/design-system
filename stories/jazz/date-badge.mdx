@@ -1,0 +1,48 @@
+import { ArgTypes, Canvas, Meta } from "@storybook/addon-docs/blocks"
+import * as Stories from "./date-badge.stories"
+
+<Meta of={Stories} />
+
+# Date badge
+
+## Overview
+
+A small stack of month and day, in the accent color, at least 44px.
+
+## When to use
+
+Use it on a poster or a compact row when the day should be seen before the title.
+
+## When not to use
+
+Do not use it for a full sentence date in a paragraph. Write that as text.
+
+## Anatomy
+
+Month abbreviation, then the day number, on a dark chip.
+
+## Variants and states
+
+<Canvas of={Stories.Friday} />
+
+There is one shape. The date is the only content.
+
+## Content guidelines
+
+Let the component format the month. Do not uppercase it yourself.
+
+## Accessibility
+
+The accessible name is the full date, such as November 27, 2026. The visual month and day are the same information, shortened.
+
+## Do
+
+Put one badge on a card.
+
+## Don't
+
+Do not use it as a button. Do not pair it with a second copy of the same date in the same card.
+
+## Props
+
+<ArgTypes of={Stories} />

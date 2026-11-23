@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Switch } from "@/components/ui/switch"
 import { Label } from "@/components/ui/label"
 
-const meta = { title: "Components/Switch", component: Switch, tags: ["autodocs"] } satisfies Meta<typeof Switch>
+const meta = { title: "Forms/Switch", component: Switch, tags: ["autodocs"], parameters: { docs: { description: { component: "Turn a reminder on or off. When to use: the change takes effect immediately." } } } } satisfies Meta<typeof Switch>
 export default meta
 type Story = StoryObj<typeof meta>
 export const Reminders: Story = {

@@ -12,9 +12,9 @@ const events: CalendarEvent[] = [
 ]
 
 const meta = {
-  title: "Jazz/Calendar month",
+  title: "Jazzfolio/Calendar month",
   component: CalendarMonth,
-  tags: ["autodocs"],
+  tags: ["!autodocs"],
   args: {
     defaultMonth: new Date(2026, 10, 1),
     events,

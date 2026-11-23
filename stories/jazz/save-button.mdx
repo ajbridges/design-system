@@ -1,0 +1,50 @@
+import { ArgTypes, Canvas, Meta } from "@storybook/addon-docs/blocks"
+import * as Stories from "./save-button.stories"
+
+<Meta of={Stories} />
+
+# Save button
+
+## Overview
+
+A bookmark that toggles, with an optional count.
+
+## When to use
+
+Use it when the person wants the set later.
+
+## When not to use
+
+Do not use it for a quick reaction. That is the like button.
+
+## Anatomy
+
+A 44px control. Bookmark, and a count when you pass one. Filled when saved.
+
+## Variants and states
+
+<Canvas of={Stories.Idle} />
+
+<Canvas of={Stories.Saved} />
+
+<Canvas of={Stories.IconOnly} />
+
+## Content guidelines
+
+Same as like: the number is visible, the word Save is in the accessible name.
+
+## Accessibility
+
+The name is Save or Unsave, plus the count when there is one. `aria-pressed` is set.
+
+## Do
+
+Pair it with like when both actions exist.
+
+## Don't
+
+Do not use a bookmark for follow.
+
+## Props
+
+<ArgTypes of={Stories} />

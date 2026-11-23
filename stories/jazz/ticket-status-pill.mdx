@@ -1,0 +1,46 @@
+import { ArgTypes, Canvas, Meta } from "@storybook/addon-docs/blocks"
+import * as Stories from "./ticket-status-pill.stories"
+
+<Meta of={Stories} />
+
+# Ticket status pill
+
+## Overview
+
+The state of tickets for a set: on sale, few left, sold out, no cover, or cancelled.
+
+## When to use
+
+Use it wherever a set shows whether you can still get in.
+
+## When not to use
+
+Do not use it for account or payment status. Use a badge for those.
+
+## Anatomy
+
+A pill with a word. Color follows the meaning. On sale uses the live accent. Few left is a warning. Sold out is neutral. No cover is success. Cancelled is destructive.
+
+## Variants and states
+
+<Canvas of={Stories.All} />
+
+## Content guidelines
+
+The words are fixed and in sentence case. Do not rename them per screen.
+
+## Accessibility
+
+The text is the status. Color is extra. The pill is not a button.
+
+## Do
+
+Show one status per set.
+
+## Don't
+
+Do not rely on the color alone. Do not invent a sixth status in the app.
+
+## Props
+
+<ArgTypes of={Stories} />

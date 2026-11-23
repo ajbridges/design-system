@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react-vite"
 import { ContextMenu, ContextMenuContent, ContextMenuItem, ContextMenuTrigger } from "@/components/ui/context-menu"
 
-const meta = { title: "Components/Context menu", component: ContextMenu, tags: ["autodocs"] } satisfies Meta<typeof ContextMenu>
+const meta = { title: "Overlays/Context menu", component: ContextMenu, tags: ["autodocs"], parameters: { docs: { description: { component: "The same actions on right-click. When to use: desktop only, and the same actions exist elsewhere." } } } } satisfies Meta<typeof ContextMenu>
 export default meta
 type Story = StoryObj<typeof meta>
 export const Set: Story = {

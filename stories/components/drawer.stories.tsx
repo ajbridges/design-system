@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Drawer, DrawerContent, DrawerDescription, DrawerHeader, DrawerTitle, DrawerTrigger } from "@/components/ui/drawer"
 import { Button } from "@/components/ui/button"
 
-const meta = { title: "Components/Drawer", component: Drawer, tags: ["autodocs"] } satisfies Meta<typeof Drawer>
+const meta = { title: "Overlays/Drawer", component: Drawer, tags: ["autodocs"], parameters: { docs: { description: { component: "A panel that slides up from the bottom, such as filters. When to use: a phone-sized task." } } } } satisfies Meta<typeof Drawer>
 export default meta
 type Story = StoryObj<typeof meta>
 export const Filters: Story = {

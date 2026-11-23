@@ -3,9 +3,9 @@ import { FollowButton } from "@/components/ui/follow-button"
 import { desktopGlobals, mobileGlobals } from "../viewports"
 
 const meta = {
-  title: "Jazz/Follow button",
+  title: "Jazzfolio/Follow button",
   component: FollowButton,
-  tags: ["autodocs"],
+  tags: ["!autodocs"],
   args: { name: "SFJAZZ", following: false },
   argTypes: {
     following: { control: "boolean" },

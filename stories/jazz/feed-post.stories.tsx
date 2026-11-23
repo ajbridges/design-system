@@ -13,9 +13,9 @@ const event = {
 }
 
 const meta = {
-  title: "Jazz/Feed post",
+  title: "Jazzfolio/Feed post",
   component: FeedPost,
-  tags: ["autodocs"],
+  tags: ["!autodocs"],
   args: {
     author: { name: "SFJAZZ", kind: "venue" },
     timestamp: "2026-11-23T18:30:00",

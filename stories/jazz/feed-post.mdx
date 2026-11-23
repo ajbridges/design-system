@@ -1,0 +1,50 @@
+import { ArgTypes, Canvas, Meta } from "@storybook/addon-docs/blocks"
+import * as Stories from "./feed-post.stories"
+
+<Meta of={Stories} />
+
+# Feed post
+
+## Overview
+
+A note from an artist or a room. Avatar, text, an optional event card, like, save, share, and a time.
+
+## When to use
+
+Use it for a post in a feed. Attach an event card when the post is about a set.
+
+## When not to use
+
+Do not use it as the only place a set appears in a calendar or a poster grid.
+
+## Anatomy
+
+Avatar and name, kind, time, body, optional compact event card, then like, save, and share. On a phone the avatar sits above the text. On a wide screen it sits beside the body.
+
+## Variants and states
+
+<Canvas of={Stories.WithEvent} />
+
+<Canvas of={Stories.TextOnly} />
+
+## Content guidelines
+
+Write the body in sentence case, the way someone would post it. One idea is enough. The attached card uses the event card rules.
+
+## Accessibility
+
+Like, save, and share are named buttons. The time is a time element. The avatar fallback is initials.
+
+A one-word name such as SFJAZZ currently falls back to a single letter. Showing SF needs a component change, planned for v0.3.0. Do not patch that in the story by renaming the room.
+
+## Do
+
+Attach the compact event card, not a second poster.
+
+## Don't
+
+Do not repeat the like count on both the post and the card unless they are different objects.
+
+## Props
+
+<ArgTypes of={Stories} />

@@ -3,9 +3,9 @@ import { DateBadge } from "@/components/ui/date-badge"
 import { desktopGlobals, mobileGlobals } from "../viewports"
 
 const meta = {
-  title: "Jazz/Date badge",
+  title: "Jazzfolio/Date badge",
   component: DateBadge,
-  tags: ["autodocs"],
+  tags: ["!autodocs"],
   args: { date: "2026-11-27" },
   argTypes: { date: { control: "text" } },
 } satisfies Meta<typeof DateBadge>

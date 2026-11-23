@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Item, ItemContent, ItemDescription, ItemGroup, ItemTitle } from "@/components/ui/item"
 
-const meta = { title: "Components/Item", component: Item, tags: ["autodocs"] } satisfies Meta<typeof Item>
+const meta = { title: "Data display/Item", component: Item, tags: ["autodocs"], parameters: { docs: { description: { component: "One row in a list: title plus a short line. When to use: a simple list, not a poster." } } } } satisfies Meta<typeof Item>
 export default meta
 type Story = StoryObj<typeof meta>
 export const Set: Story = {

@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Avatar, AvatarFallback, AvatarGroup } from "@/components/ui/avatar"
 
-const meta = { title: "Components/Avatar", component: Avatar, tags: ["autodocs"] } satisfies Meta<typeof Avatar>
+const meta = { title: "Data display/Avatar", component: Avatar, tags: ["autodocs"], parameters: { docs: { description: { component: "A face or initials for an artist or a room. When to use: the person or place should be recognizable in a list." } } } } satisfies Meta<typeof Avatar>
 export default meta
 type Story = StoryObj<typeof meta>
 export const Rooms: Story = {

@@ -62,6 +62,14 @@ const meta = {
   title: "Foundations/Typography",
   component: Typography,
   tags: ["autodocs"],
+  parameters: {
+    docs: {
+      description: {
+        component:
+          "Display type is a condensed grotesque in sentence case. Body is a plain sans. Sizes step down on a narrow screen.",
+      },
+    },
+  },
 } satisfies Meta<typeof Typography>
 
 export default meta

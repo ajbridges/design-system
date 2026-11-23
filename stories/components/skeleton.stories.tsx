@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Skeleton } from "@/components/ui/skeleton"
 
-const meta = { title: "Components/Skeleton", component: Skeleton, tags: ["autodocs"] } satisfies Meta<typeof Skeleton>
+const meta = { title: "Feedback/Skeleton", component: Skeleton, tags: ["autodocs"], parameters: { docs: { description: { component: "A placeholder in the shape of a poster while the set loads. When to use: you know the layout but not the content yet." } } } } satisfies Meta<typeof Skeleton>
 export default meta
 type Story = StoryObj<typeof meta>
 export const Card: Story = {

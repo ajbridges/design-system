@@ -1,0 +1,48 @@
+import { ArgTypes, Canvas, Meta } from "@storybook/addon-docs/blocks"
+import * as Stories from "./follow-button.stories"
+
+<Meta of={Stories} />
+
+# Follow button
+
+## Overview
+
+Follow or unfollow an artist or a room. The label changes with the state.
+
+## When to use
+
+Use it when following changes what the person will see later.
+
+## When not to use
+
+Do not use it to like one set. That is the like button.
+
+## Anatomy
+
+A pill, at least 44px tall. Plus and the word Follow, or a check and the word Following.
+
+## Variants and states
+
+<Canvas of={Stories.Follow} />
+
+<Canvas of={Stories.Following} />
+
+## Content guidelines
+
+Keep the words Follow and Following. Put the name in the accessible label, not necessarily in the visible word.
+
+## Accessibility
+
+`aria-pressed` matches the state. The name includes the artist or the room, such as Follow SFJAZZ.
+
+## Do
+
+Give it a name so the person knows who they are following.
+
+## Don't
+
+Do not shrink it below 44px. Do not use uppercase.
+
+## Props
+
+<ArgTypes of={Stories} />

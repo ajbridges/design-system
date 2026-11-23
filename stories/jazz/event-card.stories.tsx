@@ -3,9 +3,9 @@ import { EventCard } from "@/components/ui/event-card"
 import { desktopGlobals, mobileGlobals } from "../viewports"
 
 const meta = {
-  title: "Jazz/Event card",
+  title: "Jazzfolio/Event card",
   component: EventCard,
-  tags: ["autodocs"],
+  tags: ["!autodocs"],
   args: {
     title: "Late set at SFJAZZ",
     date: "2026-11-27",
@@ -51,7 +51,7 @@ export const WithPosterImage: Story = {
   globals: desktopGlobals,
   args: {
     imageSrc: "/poster.svg",
-    imageAlt: "",
+    imageAlt: "Abstract blue poster for Joshua Redman at the Black Cat",
     tint: undefined,
     title: "Joshua Redman at the Black Cat",
     venue: "Black Cat, 400 Eddy Street",

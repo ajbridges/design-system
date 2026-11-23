@@ -3,7 +3,7 @@ import { Combobox, ComboboxContent, ComboboxEmpty, ComboboxInput, ComboboxItem, 
 
 const rooms = ["SFJAZZ Center", "The Chapel", "Black Cat", "Mr. Tipple's", "Biscuits and Blues"]
 
-const meta = { title: "Components/Combobox", component: Combobox, tags: ["autodocs"] } satisfies Meta<typeof Combobox>
+const meta = { title: "Forms/Combobox", component: Combobox, tags: ["autodocs"], parameters: { docs: { description: { component: "Search and pick a room. When to use: the list is long enough that typing helps." } } } } satisfies Meta<typeof Combobox>
 export default meta
 type Story = StoryObj<typeof meta>
 export const Rooms: Story = {

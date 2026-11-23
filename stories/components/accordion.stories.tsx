@@ -16,7 +16,7 @@ function Demo() {
   )
 }
 
-const meta = { title: "Components/Accordion", component: Accordion, tags: ["autodocs"] } satisfies Meta<typeof Accordion>
+const meta = { title: "Data display/Accordion", component: Accordion, tags: ["autodocs"], parameters: { docs: { description: { component: "Questions about doors and cover, opened one at a time. When to use: long text that can stay collapsed." } } } } satisfies Meta<typeof Accordion>
 export default meta
 type Story = StoryObj<typeof meta>
 export const Sets: Story = { render: () => <Demo /> }

@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react-vite"
 import { AspectRatio } from "@/components/ui/aspect-ratio"
 
-const meta = { title: "Components/Aspect ratio", component: AspectRatio, tags: ["autodocs"], args: { ratio: 4 / 5 } } satisfies Meta<typeof AspectRatio>
+const meta = { title: "Data display/Aspect ratio", component: AspectRatio, tags: ["autodocs"], parameters: { docs: { description: { component: "Keeps a poster frame at 4:5. When to use: the image must not jump when it loads." } } }, args: { ratio: 4 / 5 } } satisfies Meta<typeof AspectRatio>
 export default meta
 type Story = StoryObj<typeof meta>
 export const Poster: Story = {

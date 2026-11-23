@@ -17,9 +17,9 @@ const variants = [
 ] as const
 
 const meta = {
-  title: "Components/Badge",
+  title: "Feedback/Badge",
   component: Badge,
-  tags: ["autodocs"],
+  tags: ["autodocs"], parameters: { docs: { description: { component: "A short status, including the live variant for On sale. When to use: a label, not a button. For ticket states, prefer Ticket status pill." } } },
   args: { children: "On sale", variant: "live", dot: false },
   argTypes: {
     variant: { control: "select", options: [...variants] },

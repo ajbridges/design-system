@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react-vite"
 import { ResizableHandle, ResizablePanel, ResizablePanelGroup } from "@/components/ui/resizable"
 
-const meta = { title: "Components/Resizable", component: ResizablePanelGroup, tags: ["autodocs"] } satisfies Meta<typeof ResizablePanelGroup>
+const meta = { title: "Data display/Resizable", component: ResizablePanelGroup, tags: ["autodocs"], parameters: { docs: { description: { component: "Two panes, Tonight and This weekend, with a drag handle. When to use: a desktop layout the person can resize." } } } } satisfies Meta<typeof ResizablePanelGroup>
 export default meta
 type Story = StoryObj<typeof meta>
 export const Split: Story = {

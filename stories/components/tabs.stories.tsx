@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
-const meta = { title: "Components/Tabs", component: Tabs, tags: ["autodocs"] } satisfies Meta<typeof Tabs>
+const meta = { title: "Navigation/Tabs", component: Tabs, tags: ["autodocs"], parameters: { docs: { description: { component: "Switches Tonight and Weekend without leaving the page. When to use: peer views of the same subject." } } } } satisfies Meta<typeof Tabs>
 export default meta
 type Story = StoryObj<typeof meta>
 export const Nights: Story = {

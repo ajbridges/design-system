@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Popover, PopoverContent, PopoverDescription, PopoverHeader, PopoverTitle, PopoverTrigger } from "@/components/ui/popover"
 import { Button } from "@/components/ui/button"
 
-const meta = { title: "Components/Popover", component: Popover, tags: ["autodocs"] } satisfies Meta<typeof Popover>
+const meta = { title: "Overlays/Popover", component: Popover, tags: ["autodocs"], parameters: { docs: { description: { component: "A small detail bubble for one set. When to use: a little extra information, not a whole task." } } } } satisfies Meta<typeof Popover>
 export default meta
 type Story = StoryObj<typeof meta>
 export const Details: Story = {

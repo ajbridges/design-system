@@ -3,9 +3,9 @@ import { LikeButton } from "@/components/ui/like-button"
 import { desktopGlobals, mobileGlobals } from "../viewports"
 
 const meta = {
-  title: "Jazz/Like button",
+  title: "Jazzfolio/Like button",
   component: LikeButton,
-  tags: ["autodocs"],
+  tags: ["!autodocs"],
   args: { liked: false, count: 86 },
   argTypes: {
     liked: { control: "boolean" },

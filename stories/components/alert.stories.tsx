@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import { InfoIcon } from "lucide-react"
 
-const meta = { title: "Components/Alert", component: Alert, tags: ["autodocs"] } satisfies Meta<typeof Alert>
+const meta = { title: "Feedback/Alert", component: Alert, tags: ["autodocs"], parameters: { docs: { description: { component: "A note on the page, such as the Friday book being up, or a cancelled set. When to use: the message belongs in the layout, not a toast." } } } } satisfies Meta<typeof Alert>
 export default meta
 type Story = StoryObj<typeof meta>
 export const Notice: Story = {

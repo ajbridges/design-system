@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Field, FieldDescription, FieldLabel } from "@/components/ui/field"
 import { Input } from "@/components/ui/input"
 
-const meta = { title: "Components/Field", component: Field, tags: ["autodocs"] } satisfies Meta<typeof Field>
+const meta = { title: "Forms/Field", component: Field, tags: ["autodocs"], parameters: { docs: { description: { component: "Wraps a label, control, and hint so a form reads as one question. When to use: any input that needs a label." } } } } satisfies Meta<typeof Field>
 export default meta
 type Story = StoryObj<typeof meta>
 export const Email: Story = {

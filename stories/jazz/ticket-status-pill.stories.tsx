@@ -3,9 +3,9 @@ import { TicketStatusPill, ticketStatuses } from "@/components/ui/ticket-status-
 import { desktopGlobals, mobileGlobals } from "../viewports"
 
 const meta = {
-  title: "Jazz/Ticket status pill",
+  title: "Jazzfolio/Ticket status pill",
   component: TicketStatusPill,
-  tags: ["autodocs"],
+  tags: ["!autodocs"],
   args: { status: "on-sale" },
   argTypes: { status: { control: "inline-radio", options: [...ticketStatuses] } },
 } satisfies Meta<typeof TicketStatusPill>

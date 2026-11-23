@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Separator } from "@/components/ui/separator"
 
-const meta = { title: "Components/Separator", component: Separator, tags: ["autodocs"] } satisfies Meta<typeof Separator>
+const meta = { title: "Data display/Separator", component: Separator, tags: ["autodocs"], parameters: { docs: { description: { component: "A line between the early set and the late set. When to use: a visual break, not a new heading." } } } } satisfies Meta<typeof Separator>
 export default meta
 type Story = StoryObj<typeof meta>
 export const BetweenSets: Story = {

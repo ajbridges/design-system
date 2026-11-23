@@ -8,7 +8,7 @@ const rows = [
   ["After hours trio", "The Chapel", "$20", "destructive"],
 ] as const
 
-const meta = { title: "Components/Table", component: Table, tags: ["autodocs"] } satisfies Meta<typeof Table>
+const meta = { title: "Data display/Table", component: Table, tags: ["autodocs"], parameters: { docs: { description: { component: "Rows of sets with room, price, and status. When to use: comparing many records. Status cells use a badge." } } } } satisfies Meta<typeof Table>
 export default meta
 type Story = StoryObj<typeof meta>
 export const Book: Story = {

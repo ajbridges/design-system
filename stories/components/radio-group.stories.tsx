@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from "@storybook/react-vite"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Label } from "@/components/ui/label"
 
-const meta = { title: "Components/Radio group", component: RadioGroup, tags: ["autodocs"] } satisfies Meta<typeof RadioGroup>
+const meta = { title: "Forms/Radio group", component: RadioGroup, tags: ["autodocs"], parameters: { docs: { description: { component: "Pick one set time, early or late. When to use: the options exclude each other." } } } } satisfies Meta<typeof RadioGroup>
 export default meta
 type Story = StoryObj<typeof meta>
 export const SetTime: Story = {

@@ -3,9 +3,9 @@ import { SaveButton } from "@/components/ui/save-button"
 import { desktopGlobals, mobileGlobals } from "../viewports"
 
 const meta = {
-  title: "Jazz/Save button",
+  title: "Jazzfolio/Save button",
   component: SaveButton,
-  tags: ["autodocs"],
+  tags: ["!autodocs"],
   args: { saved: false, count: 14 },
   argTypes: {
     saved: { control: "boolean" },

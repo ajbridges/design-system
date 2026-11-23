@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react-vite"
 import { NativeSelect, NativeSelectOption } from "@/components/ui/native-select"
 
-const meta = { title: "Components/Native select", component: NativeSelect, tags: ["autodocs"] } satisfies Meta<typeof NativeSelect>
+const meta = { title: "Forms/Native select", component: NativeSelect, tags: ["autodocs"], parameters: { docs: { description: { component: "The browser's own menu for choosing a room. When to use: you want the platform picker, especially on a phone." } } } } satisfies Meta<typeof NativeSelect>
 export default meta
 type Story = StoryObj<typeof meta>
 export const Room: Story = {
